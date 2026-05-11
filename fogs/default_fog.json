@@ -2,7 +2,7 @@
   "format_version": "1.21.90",
   "minecraft:fog_settings": {
     "description": {
-      "identifier": "sample:example_fog"
+      "identifier": "lerian:example_fog"
     },
     "volumetric": {
       "density": {

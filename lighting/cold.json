@@ -2,7 +2,7 @@
   "format_version": "1.21.80",
   "minecraft:lighting_settings": {
     "description": {
-      "identifier": "sample:cold_lighting"
+      "identifier": "lerian:cold_lighting"
     },
     "directional_lights": { // Main directional lights
       "orbital": {
@@ -29,8 +29,8 @@
             ],
             "0.242908": [
               255,
-              107,
-              0
+              94,
+              31
             ],
             "0.140811": [
               255,
@@ -39,8 +39,8 @@
             ],
             "0.216944": [
               255,
-              100,
-              50
+              94,
+              31
             ],
             "0.314561": [
               255,

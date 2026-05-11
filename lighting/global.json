@@ -2,7 +2,7 @@
   "format_version": "1.21.80",
   "minecraft:lighting_settings": {
     "description": {
-      "identifier": "minecraft:default_lighting"
+      "identifier": "lerian:default_lighting"
     },
     "directional_lights": { // Main directional lights
       "orbital": {
@@ -14,6 +14,8 @@
             "0.266000": 0.0,
             "0.313846": 0.0,
             "0.684230": 0.0,
+            "0.744230": 15,
+            "0.784230": 30,
             "0.950000": 90
           },
           "color": { // sun light colour
@@ -24,8 +26,8 @@
             ],
             "0.242908": [
               255,
-              127,
-              0
+              150,
+              50
             ],
             "0.140811": [
               255,
@@ -34,8 +36,8 @@
             ],
             "0.216944": [
               255,
-              155,
-              82
+              150,
+              50
             ],
             "0.314561": [
               255,
@@ -44,8 +46,8 @@
             ],
             "0.269504": [
               255,
-              127,
-              0
+              150,
+              50
             ],
             "0.506998": [
               255,
