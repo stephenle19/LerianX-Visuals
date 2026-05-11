@@ -6,7 +6,7 @@
     },
     "components": {
       "minecraft:fog_appearance": {
-        "fog_identifier": "sample:mesa_fog"
+        "fog_identifier": "lerian:mesa_fog"
       },
       "minecraft:water_appearance": {
         "surface_color": "#55809E"
