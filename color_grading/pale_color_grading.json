@@ -1,0 +1,45 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:color_grading_settings": {
+    "description": {
+      "identifier": "lerian:pale_color_grading"
+    },
+    "color_grading": {
+      "midtones": {
+        "contrast": [ // Midtones contrast
+          1.3,
+          1.3,
+          1.3
+        ],
+        "gain": [ // Midtones brightness boost
+          1.15,
+          1.15,
+          1.15
+        ],
+        "gamma": [ // Midtones gamma correct
+          1.8,
+          1.8,
+          1.8
+        ],
+        "offset": [ // Midtones color offset
+          0.0,
+          0.0,
+          0.0
+        ],
+        "saturation": [ // Midtones colour saturation
+          0.75,
+          0.75,
+          0.75
+        ]
+      },
+      "temperature": {
+        "enabled": true, // Enable colour temperature adjustment
+        "temperature": 5500, // Colour temperature value (Kelvin)
+        "type": "color_temperature" // Temperature mode
+      }
+    },
+    "tone_mapping": { // Tone mapping operator
+      "operator": "hable" // i prefer aces or hable
+    }
+  }
+}
