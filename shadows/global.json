@@ -1,0 +1,7 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:shadow_settings": {
+    "shadow_style": "soft_shadows", // block_shadows = pixelated shadows, soft_shadows = smoother_shadows
+    "texel_size": 1024 // shadows resolution (i prefer from 768 to 1024 for soft_shadows)
+  }
+}

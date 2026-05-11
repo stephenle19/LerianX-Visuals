@@ -1,0 +1,48 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:fog_settings": {
+    "description": {
+      "identifier": "sample:example_fog"
+    },
+    "volumetric": {
+      "density": {
+        "air": {
+          "max_density": 0.0, // Fog intensity from 0.0 to 1.0
+          "zero_density_height": 320, // Height where fog fades out completely
+          "max_density_height": 160, // Height where fog reaches maximum density
+          "uniform": false // Enables uniform fog density
+        },
+        "weather": { // Weather fog intensity
+          "max_density": 0.0,
+          "uniform": true // Enable uniform weather fog
+        },
+        "water": { // Underwater fog intensity
+          "max_density": 0.0,
+          "uniform": true // Enable uniform underwater fog
+        }
+      },
+      "media_coefficients": {
+        "air": {
+          "scattering": [ // Fog light scattering colour
+            0.0,
+            0.0,
+            0.0
+          ],
+          "absorption": [ // Fog light absorption colour
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "henyey_greenstein_g": {
+        "air": { // Air fog light directionality
+          "henyey_greenstein_g": 0.65
+        },
+        "water": { // Underwater fog light directionality
+          "henyey_greenstein_g": 0.3
+        }
+      }
+    }
+  }
+}

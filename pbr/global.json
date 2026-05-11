@@ -1,0 +1,37 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:pbr_fallback_settings": {
+    "blocks": { // For blocks
+      "global_metalness_emissive_roughness_subsurface": [
+        0, // 0 = turn off
+        0,
+        255, // 255 = turn on (the value is not always 255)
+        0
+      ] // Metalness (R), Emissive (G), Roughness (B), Subsurface (A)
+    },
+    "actors": { // For actors
+      "global_metalness_emissive_roughness_subsurface": [
+        0,
+        0,
+        255,
+        0
+      ]
+    },
+    "particles": { // For particles
+      "global_metalness_emissive_roughness_subsurface": [
+        0,
+        0,
+        255,
+        0
+      ]
+    },
+    "items": { // For items
+      "global_metalness_emissive_roughness_subsurface": [
+        0,
+        0,
+        255,
+        0
+      ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:water_settings": {
+    "description": {
+      "identifier": "sample:default_water"
+    },
+    "particle_concentrations": {
+      "chlorophyll": 0.0, // Algae concentration in water
+      "suspended_sediment": 0.0, // Sediment concentration in water
+      "cdom": 0.0 // Dissolved organic matter concentration
+    },
+    "caustics": {
+      "enabled": true, // Enables underwater caustic lighting
+      "frame_length": 0.1, // Caustic animation speed
+      "scale": 0.5, // Caustic texture scale
+      "power": 1 // Caustic light intensity (i'm not sure)
+    },
+    "waves": {
+      "enabled": true, // Enables water waves
+      "frequency": 0.75, // Base wave frequency
+      "octaves": 10, // Wave detail layers
+      "depth": 0.05, // Wave depth strength
+      "speed": 1.75, // Wave movement speed
+      "shape": 1.75, // Wave shape sharpness
+      "pull": 0.25, // Wave pull strength
+      "mix": 0.25, // Wave blending amount
+      "frequency_scaling": 1, // Frequency multiplier per octave
+      "speed_scaling": 1 // Speed multiplier per octave
+    }
+  }
+}
