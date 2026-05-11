@@ -7,7 +7,7 @@
     "volumetric": {
       "density": {
         "air": {
-          "max_density": 0.075, // Fog intensity from 0.0 to 1.0
+          "max_density": 0.0175, // Fog intensity from 0.0 to 1.0
           "zero_density_height": 128, // Height where fog fades out completely
           "max_density_height": 64, // Height where fog reaches maximum density
           "uniform": false // Enables uniform fog density
@@ -24,14 +24,14 @@
       "media_coefficients": {
         "air": {
           "scattering": [ // Fog light scattering colour
-            0.03,
-            0.03,
-            0.03
+            0.09,
+            0.1,
+            0.15
           ],
           "absorption": [ // Fog light absorption colour
-            0.06,
-            0.04,
-            0.01
+            0.2,
+            0.2,
+            0.2
           ]
         }
       },
