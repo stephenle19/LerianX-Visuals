@@ -91,11 +91,11 @@
         "orbital_offset_degrees": 0.0 // Sun / Moon rotation offset
       },
       "flash": { // End flash light setting
-        "illuminance": 10.0, // End flash light intensity
+        "illuminance": 0, // End flash light intensity
         "color": [ // End flash light colour
-          228,
-          93,
-          255
+          0,
+          0,
+          0
         ]
       }
     },

@@ -1,0 +1,48 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:atmosphere_settings": {
+    "description": {
+      "identifier": "lerian:end_atmospherics"
+    },
+    "sky_zenith_color": { // Top sky colour (sky above the player)
+      "0.000000": [
+        10,
+        10,
+        25
+      ]
+    },
+    "sky_horizon_color": { // Horizon sky colour
+      "0.000000": [
+        10,
+        10,
+        25
+      ]
+    },
+    "rayleigh_strength": { // Rayleigh scattering intensity (sky atmosphere)
+      "0.000000": 1.0,
+    },
+    "sun_mie_strength": { // Sun Mie scattering intensity (sun glow / haze)
+      "0.800000": 0.0,
+    },
+    "moon_mie_strength": { // Moon Mie scattering intensity 
+      "0.000000": 0.0,
+    },
+    "sun_glare_shape": { // Sun glare size and shape
+      "0.000000": 0.0,
+    },
+    "horizon_blend_stops": { // Lower blend limit
+      "min": {
+        "0.000000": 0.0,
+      },
+      "start": { // Horizon blend start point
+        "0.000000": 0.800000011920929,
+      },
+      "mie_start": { // Mie scattering blend start
+        "0.000000": 0.5,
+      },
+      "max": { // Upper blend limit
+        "0.000000": 0.25,
+      }
+    }
+  }
+}

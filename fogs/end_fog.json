@@ -2,36 +2,36 @@
   "format_version": "1.21.90",
   "minecraft:fog_settings": {
     "description": {
-      "identifier": "lerian:forest_fog"
+      "identifier": "lerian:end_fog"
     },
     "volumetric": {
       "density": {
         "air": {
-          "max_density": 0.025, // Fog intensity from 0.0 to 1.0
-          "zero_density_height": 128, // Height where fog fades out completely
+          "max_density": 0.075, // Fog intensity from 0.0 to 1.0
+          "zero_density_height": 256, // Height where fog fades out completely
           "max_density_height": 64, // Height where fog reaches maximum density
           "uniform": false // Enables uniform fog density
         },
         "weather": { // Weather fog intensity
-          "max_density": 0.05,
+          "max_density": 0.0,
           "uniform": true // Enable uniform weather fog
         },
         "water": { // Underwater fog intensity
-          "max_density": 0.025,
+          "max_density": 0.0,
           "uniform": true // Enable uniform underwater fog
         }
       },
       "media_coefficients": {
         "air": {
           "scattering": [ // Fog light scattering colour
-            0.035,
-            0.035,
-            0.035
+            0.09,
+            0.09,
+            0.09
           ],
           "absorption": [ // Fog light absorption colour
-            0.03,
-            0.04,
-            0.06
+            0.02,
+            0.06,
+            0.02
           ]
         }
       },

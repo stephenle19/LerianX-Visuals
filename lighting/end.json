@@ -1,0 +1,55 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:lighting_settings": {
+    "description": {
+      "identifier": "lerian:end_lighting"
+    },
+    "directional_lights": { // Main directional lights
+      "orbital": {
+        "sun": {
+          "illuminance": { // sun light intensity
+            "0.000000": 90
+          },
+          "color": { // sun light colour
+            "0.000000": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "moon": {
+          "illuminance": { // Moon light intensity 
+            "0.000000": 0.0
+          },
+          "color": { // Moon light colour
+            "0.000000": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "orbital_offset_degrees": 0.0 // Sun / Moon rotation offset
+      },
+      "flash": { // End flash light setting
+        "illuminance": 20.0, // End flash light intensity
+        "color": [ // End flash light colour
+          228,
+          93,
+          255
+        ]
+      }
+    },
+    "emissive": { // Emissive colour desaturation
+      "desaturation": 0.0
+    },
+    "ambient": {
+      "color": "#464646", // Ambient light colour
+      "illuminance": 0.075 // Ambient light intensity
+    },
+    "sky": {
+      "intensity": 0.4 // sky lighting intensity
+    }
+  }
+}

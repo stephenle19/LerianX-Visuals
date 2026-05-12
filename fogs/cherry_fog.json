@@ -7,7 +7,7 @@
     "volumetric": {
       "density": {
         "air": {
-          "max_density": 0.075, // Fog intensity from 0.0 to 1.0
+          "max_density": 0.05, // Fog intensity from 0.0 to 1.0
           "zero_density_height": 256, // Height where fog fades out completely
           "max_density_height": 64, // Height where fog reaches maximum density
           "uniform": false // Enables uniform fog density
