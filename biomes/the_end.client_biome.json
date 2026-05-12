@@ -17,8 +17,8 @@
       "minecraft:lighting_identifier": {
         "lighting_identifier": "lerian:end_lighting"
       },
-      "minecraft:atmospherics_identifier": {
-        "atmospherics_identifier": "lerian:end_atmospherics"
+      "minecraft:atmosphere_identifier": {
+        "atmosphere_identifier": "lerian:end_atmospherics"
       }
     }
   }

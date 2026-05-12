@@ -6,7 +6,7 @@
     },
     "components": {
       "minecraft:fog_appearance": {
-        "fog_identifier": "minecraft:fog_warped_forest"
+        "fog_identifier": "lerian:hell_fog"
       },
       "minecraft:water_appearance": {
         "surface_color": "#905957"
@@ -17,13 +17,10 @@
         "mood": "ambient.warped_forest.mood"
       },
       "minecraft:color_grading_identifier": {
-        "color_grading_identifier": "sample:custom_color_grading"
+        "color_grading_identifier": "lerian:hell_color_grading"
       },
       "minecraft:lighting_identifier": {
-        "lighting_identifier": "minecraft:default_lighting"
-      },
-      "minecraft:water_identifier": {
-        "water_identifier": "sample:default_water"
+        "lighting_identifier": "lerian:hell_lighting"
       }
     }
   }
