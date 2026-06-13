@@ -1,9 +1,9 @@
 {
   "format_version": 2,
   "header": {
-    "name": "LerianX Visuals",
+    "name": "LerianX Visuals V1",
     "description": "By Stephen Le",
-    "uuid": "cd71d58d-5231-46bb-bfd9-f07fe8327765",
+    "uuid": "d31542aa-9f4a-48ed-8709-fbdfb566dea1",
     "version": [
       1,
       0,
@@ -18,7 +18,7 @@
   "modules": [
     {
       "type": "resources",
-      "uuid": "941f2293-947d-4eeb-b810-09e1b11c77f0",
+      "uuid": "851e500a-1369-4d0b-936a-0bd3b0dce611",
       "version": [
         1,
         0,
